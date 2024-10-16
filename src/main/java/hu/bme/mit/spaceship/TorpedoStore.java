@@ -11,6 +11,8 @@ public class TorpedoStore {
 
   // rate of failing to fire torpedos [0.0, 1.0]
   private double FAILURE_RATE = 0.0; // NOSONAR
+
+  // Random value more relyable when generaetd outside of fire()
   private Random random = new Random();
 
   private int torpedoCount = 0;
